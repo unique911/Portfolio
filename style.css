@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+    margin: 32px;
+    padding: 0;
+    border: #8089da;
+    border-radius: 20px;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #3dadd9;
+    padding: 0 20px;
+  }
+  
+  header {
+    background: #8089da;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 20px 0;
+    border-bottom: 10px solid #eee;
+  }
+  
+  h2 {
+    color: #8089da;
+    margin-bottom: 20px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  image {
+  border-radius: 10px;
+}
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.skill-card {
+  text-align: center;
+  width: 150px; 
+}
+
+.skill-card img {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: #8089da;
+  display: block;
+  margin: 0 auto;
+}
+
+.skill-card p {
+  margin: 8px 0 0 0;
+  font-weight: 500;
+  background-color: #8089da;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+  
+  .skill {
+    background: #8089da;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: 5px solid #8089da;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .recommendations blockquote {
+    background: #f5f5ff;
+    border-left: 4px solid #8089da;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-style: italic;
+  }
+  
+  .feedback-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 30px auto;
+  gap: 10px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 60px;
+  gap: 10px;
+}
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form button {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+.feedback-form textarea {
+  height: 150px; 
+  resize: vertical; 
+}
+
+
+.feedback-form button {
+  background-color: #8c88f0; 
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #5e59d8; 
+}
+
+
+.feedback-heading {
+  color: #8c88f0;
+  margin-left: 60px;
+}
+
+
+
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
